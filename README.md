@@ -23,6 +23,6 @@ HTML, CSS
 - Contacts
 
 
-## Authors
+## Author
 
 - [@KatieKim22](https://github.com/KatieKim22)
