@@ -1,3 +1,28 @@
-# w2-CSS-Portfolito
-Week 2 Challenge
-[README.md](https://github.com/KatieKim22/w2-CSS-Portfolito/files/9312296/README.md)
+
+# Katie Kim's Portfolio
+
+This is my first professional portfolio. 
+
+Links to my work don't work for now. But, expect them to be updated next couple of months. 
+
+You'll see more cool features on this very soon as I go more on my coding journey!
+
+## Technologies
+
+Project is created with:
+HTML, CSS
+
+
+## Table of Contents
+
+- Header
+- Menu bar links to the sections of the page
+- Picture
+- Description of myself
+- Links to my work
+- Contacts
+
+
+## Authors
+
+- [@KatieKim22](https://github.com/KatieKim22)
