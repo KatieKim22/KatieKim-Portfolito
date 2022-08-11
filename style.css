@@ -1,0 +1,131 @@
+:root {
+    --size: 1em;
+    --green: mediumseagreen;
+}
+
+body {
+    background-color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 2em 0 2em;
+    color: white;
+}
+
+a {
+    padding: 1em;
+    color: antiquewhite
+}
+
+a,
+u {
+    text-decoration: none;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+/* My name-website title */
+.header h1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.3em;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigate to the website */
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    background-color: var(--green);
+    justify-content: space-around;
+    font-size: larger;
+}
+
+/* background picture of myself */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* About me */
+.aboutMe {
+    padding: var(--size);
+    font-size: var(--size);
+    background-color: var(--green);
+}
+
+.aboutMe h2 {
+    font-size: var(--size);
+    font-weight: bold;
+    padding: 0 0 1em;
+}
+
+/* my projects */
+.contents .projects {
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+
+}
+
+.projects {
+    font-size: var(--size);
+    font-weight: bold;
+}
+
+.sidebar {
+    grid-column: 1;
+    grid-row: 1/4;
+    padding: var(--size);
+    font-size: 1.5em;
+    justify-self: center;
+
+}
+
+.project1,
+.project2,
+.project3 {
+    grid-column: 2/5;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 4fr;
+    padding: var(--size);
+
+    align-items: center;
+}
+
+.project1 span,
+.project2 span,
+.project3 span {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutMe img {
+    width: var(--size);
+}
+
+.project1 img,
+.project2 img,
+.project3 img {
+    transition: transform 0.25s ease;
+    cursor: pointer;
+}
+
+.project1 img:hover,
+.project2 img:hover,
+.project3 img:hover {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+
+/* contact me */
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--size);
+}
